@@ -1,0 +1,39 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+} 
+
+.title {
+    opacity: 1;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    animation: opacity 8s 1 linear;
+}
+
+.seven {
+    text-align: center;
+}
+
+@keyframes opacity {
+	from{opacity:0;}
+	to {opacity:1;}
+}
+
+body {
+    padding: 300px 0;
+    background-color: #0d2562;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+  /* VIDEO */
+.video {
+    top: 50%;
+    width: 1938px;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    left: 50%;
+    z-index: 0;
+    position: fixed;
+}
